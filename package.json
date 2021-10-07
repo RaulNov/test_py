@@ -1,0 +1,16 @@
+{
+  "name": "python-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.2.4",
+    "jest-pytest": "^0.7.0"
+  },
+  "jest": {
+    "moduleFileExtensions": ["py"],
+    "runner": "jest-pytest",
+    "testPathIgnorePatterns": [],
+    "testMatch": ["<rootDir>/tests/test_*.py"]
+  }
+}
